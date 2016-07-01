@@ -354,6 +354,45 @@
 	#Interests:hover{
 		border-bottom: 2px solid #c06c84;
 	}
+	.job_title{
+		font-size: 16px;
+}
+
+.job_date{
+	font-size: 14px;
+}
+
+.job_description{
+	font-size: 12px;
+}
+}
+
+@media (max-width: 610px) {
+		#Work, #Involvement, #Education, #Interests {
+		display: block;
+		float: left;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 40px;
+		padding-right: 0;
+	}
+		.job_title{
+		font-size: 14px;
+	}
+
+	#Work{
+		margin-left:0px;
+	}
+
+	.job_date{
+		float:left;
+		margin-left: 5px;
+		font-size: 12px;
+	}
+
+	.job_description{
+		font-size: 10px;
+	}
 }
 
 @media (max-width: 550px) {
@@ -458,15 +497,15 @@
 		display: block;
 	}
 
-	#Work{
+	#Work, #Involvement, #Education, #Interests {
 		display: block;
 		float: left;
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 3px;
+		margin-right: 3px;
 		margin-top: 40px;
 	}
 
-	#Involvement{
+	/*#Involvement{
 		display: block;
 		float: left;
 		margin-left: 5px;
@@ -488,7 +527,7 @@
 		margin-left: 5px;
 		margin-right: 5px;
 		margin-top: 40px;
-	}
+	}*/
 	.LIlogo{
 	width: 10%;
 	}
