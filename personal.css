@@ -253,9 +253,13 @@
 	margin: 0px auto;
 }
 
-.interst_img{
+.interest_img{
 	background-size:cover;
 
+}
+
+.travel_img{
+	height: 325px;
 }
 
 .interest_photo{
