@@ -103,6 +103,12 @@ ul li:hover{
 	opacity: 0.4;
 }
 
+.gallery-grid {
+    padding: 10px;
+    float: left;
+    width: 33.3%;
+}
+
 .img-box {
   width: 300px;
   height: 250px;
