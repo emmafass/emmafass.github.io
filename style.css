@@ -1,0 +1,267 @@
+ c* {
+	box-sizing: border-box;
+}
+
+.banner{
+	background: url(/images/hike.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.banner_text{
+	font-size: 50px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 12%;
+	text-decoration: underline;
+	text-shadow: 3px 2px #000000;
+}
+
+.hamburger{
+	width: 70%;
+	margin-top: 40px;
+}
+
+.hamburger:hover{
+	transform: translate(0,-15%);
+	transition: all .3s;
+}
+
+.menu{
+	color: white;
+	margin-left: -100px;
+	background-color: rgba(0,0,0,.8);
+}
+
+.nav-menu{
+	padding-left: 30%;
+}
+
+ul li{
+	color: white;
+	margin-top: 10px;
+	text-decoration: none;
+	list-style: none;
+}
+
+ul li:hover{
+	color: #d7f480;
+}
+
+.banner_img{
+	width: 75%;
+	border-radius: 50%;
+	margin-top: 60%;
+}
+
+.section_2{
+	margin-top: 40px;
+}
+
+.about_section_title{
+	font-size: 54px;
+	color: black;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.about_section_pic{
+	margin: 0px auto;
+	display: block;
+}
+
+.about_section_text{
+	text-align: center;
+	font-size: 24px;
+}
+
+.about_section ul{
+	padding-top: 40px;
+	padding-right: 20px;
+	margin: 0px auto;
+	display: table;
+}
+
+.about_section_social{
+	list-style: none;
+	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.project{
+	width: 100%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+.project:hover{
+	opacity: 0.4;
+}
+
+.img-box {
+  width: 300px;
+  height: 250px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.img-box::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.8);
+  opacity: 0;
+  transition: all .3s;
+}
+
+.img-box:hover::before {
+  opacity: 1;
+}
+
+.hover-overlay {
+  opacity: 0;
+  color: white;
+  font-family: Helvetica;
+  transition: all .3s;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+}
+
+.img-box:hover .hover-overlay {
+  opacity: 1;
+  transform: translate(-50%,-50%);
+}
+
+.inter {
+  background-image: url("/images/inter.png");
+}
+
+.dress {
+  background-image: url('/images/dress.png');
+}
+
+.writing {
+  background-image: url('/images/writing2.png');
+}
+
+
+.fb{
+	background: url(/images/fb.png)no-repeat;;
+	width: 72px;
+	height: 72px;
+	display: block;
+}
+
+.gh{
+	background: url(/images/gh.png)no-repeat;
+	width: 72px;
+	height: 72px;
+	display: block;
+}
+
+.ln{
+	background: url(/images/ln.png)no-repeat;
+	width: 72px;
+	height: 72px;
+	display: block;
+}
+
+.em{
+	margin: 0 auto;
+	background: url(/images/email.png)no-repeat;
+	width: 72px;
+	height: 72px;
+	display: block;
+}
+
+.fb:hover{
+	background: url(/images/fb1.png)no-repeat;
+}
+
+.gh:hover{
+	background: url(/images/gh1.png)no-repeat;
+}
+
+.ln:hover{
+	background: url(/images/ln1.png)no-repeat;
+}
+
+.em:hover{
+	background: url(/images/email1.png)no-repeat;
+}
+
+.top{
+	margin-top: 40px;
+	height: 8%;
+}
+
+
+
+.contact{
+	margin-left: -10%;
+	margin-top: 4%;
+}
+
+.section_title{
+	font-size: 42px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.title{
+	font-size: 18px;
+}
+
+.level_l{
+	margin-left: 10px;
+}
+
+.skill_m{
+	margin-right: 10px;
+}
+
+.resume_pic{
+	margin-top: 8px;
+	width: 100%;
+}
+
+.resume_pic:hover{
+	opacity: 0.4;
+}
+
+.cs_pic{
+	width:90%;
+}
+
+.lower_section{
+	margin-top: 100px;
+}
+
+.lower{
+	margin-top: 20px;
+}
+
+.height{
+	height: 20px;
+}
+
+.date{
+	text-align: right;
+}
+
+.end{
+	height: 200px;
+}
