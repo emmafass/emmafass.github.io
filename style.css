@@ -1,4 +1,4 @@
- c* {
+* {
 	box-sizing: border-box;
 }
 
@@ -41,14 +41,14 @@
 	padding-left: 30%;
 }
 
-ul li{
+.nav-item{
 	color: white;
 	margin-top: 10px;
 	text-decoration: none;
 	list-style: none;
 }
 
-ul li:hover{
+.nav-item:hover{
 	color: #d7f480;
 }
 

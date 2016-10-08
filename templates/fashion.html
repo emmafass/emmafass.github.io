@@ -7,7 +7,19 @@
 
 	<div class="row">
 		<div class="offset-md-1 col-md-10 offset-md-1">
-			<p class="page_description">Coming Soon!</p>
+			<p class="page_description">In Fall 2016, I created a simple fashion quiz application inspired by Buzzfeed quizzes. The application uses the AngularJS framework as well as HTML5, CSS, and Bootstrap. You can check out the code for the application <a href="https://github.com/fashionprofile/fashionprofile.github.io">here.</a> </p>
 		</div>
+	</div>
+
+	<div class="row quiz">
+		<div class="col-md-4">
+			<img class="dress_img" ng-class="{ 'move': isHovering}" src="/images/orange.jpg">
+		</div>	
+		<div class="col-md-4">
+			<a href="https://fashionprofile.github.io/#/"><button ng-click="changeLocation()" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" class="quiz_button btn btn-outline-primary">Take the Quiz</button></a>
+		</div>
+		<div class="col-md-4">
+			<img class="dress_img" ng-class="{ 'move2': isHovering}" src="/images/orange.jpg">
+		</div>	
 	</div>
 </p>
