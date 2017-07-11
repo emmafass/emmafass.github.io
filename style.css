@@ -3,7 +3,7 @@
 }
 .text{
 	font-family: 'Bad Script', cursive;
-	font-size: 24px;
+	font-size: 40px;
 }
 .left-margin{
 	margin-left: 30px;
@@ -27,14 +27,22 @@
 	margin-top: 5%;
 }
 .intro-text{
-	font-size: 50px;
+	font-size: 24px;
+	margin-top: 20%;
+	margin-left: 5%;
 }
 #prof_pic{
-	width: 80%;
+	width: 90%;
 }
 .intro-btn{
-	margin-left: 12%;
+	margin-left: 30%;
 	margin-top: 5%;
+	background-color: black;
+	border-color: #f1f1f1 !important;
+	color: #f1f1f1 !important;
+}
+.intro-btn:hover{
+	border-color: #ccc !important;
 }
 .project-section{
 	height: 800px;

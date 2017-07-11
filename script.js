@@ -44,8 +44,9 @@ try {
   document.getElementById("project1").addEventListener("click", function(){
     document.getElementById("project1").style.borderBottom = '4px solid rgb(91, 192, 222)';
     document.getElementById("description-title").innerHTML = 'Lokahi';
-    document.getElementById("description").innerHTML = 'Coming Soon';
-    document.getElementById("description-btn").innerHTML = 'Coming Soon';
+    document.getElementById("description-btn").innerHTML = 'See Project';
+    document.getElementById("description").innerHTML = 'An application to crowdsource information about investment opportunities and collaborate with other potential investors.';
+    document.getElementById("description-link").href = 'https://cs3240sp17g15.herokuapp.com/login/?next=/';
     resetProjects("project2", "project3", "project4");
   });
 } catch(err) {}
@@ -54,8 +55,9 @@ try {
   document.getElementById("project2").addEventListener("click", function(){
     document.getElementById("project2").style.borderBottom = '4px solid rgb(91, 192, 222)';
     document.getElementById("description-title").innerHTML = 'Rapid Recipes';
+    document.getElementById("description-btn").innerHTML = 'See Project';
     document.getElementById("description").innerHTML = 'Coming Soon';
-    document.getElementById("description-btn").innerHTML = 'Coming Soon';
+    document.getElementById("description-link").href = '#';
     resetProjects("project1", "project3", "project4");
   });
 } catch(err) {}
@@ -64,8 +66,9 @@ try {
   document.getElementById("project3").addEventListener("click", function(){
     document.getElementById("project3").style.borderBottom = '4px solid rgb(91, 192, 222)';
     document.getElementById("description-title").innerHTML = 'Fashion Quiz';
+    document.getElementById("description-btn").innerHTML = 'See Project';
     document.getElementById("description").innerHTML = 'Coming Soon';
-    document.getElementById("description-btn").innerHTML = 'Coming Soon';
+    document.getElementById("description-link").href = '#';
     resetProjects("project2", "project1", "project4");
   });
 } catch(err) {}
@@ -74,8 +77,9 @@ try {
   document.getElementById("project4").addEventListener("click", function(){
     document.getElementById("project4").style.borderBottom = '4px solid rgb(91, 192, 222)';
     document.getElementById("description-title").innerHTML = 'Ibingi';
+    document.getElementById("description-btn").innerHTML = 'See Project';
     document.getElementById("description").innerHTML = 'Coming Soon';
-    document.getElementById("description-btn").innerHTML = 'Coming Soon';
+    document.getElementById("description-link").href = '#';
     resetProjects("project2", "project3", "project1");
   });
 } catch(err) {}
