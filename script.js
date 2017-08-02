@@ -3,37 +3,37 @@ var count = 0;
 var myListener = function(e) {
   count = count + 1;
   console.log(count);
-  if (count > 85)
+  if (count > 235)
     document.getElementById("mac").src = "images/Mac-Screen-17.png";
-  else if (count > 80)
+  else if (count > 220)
     document.getElementById("mac").src = "images/Mac-Screen-16.png";
-  else if (count > 75)
+  else if (count > 205)
     document.getElementById("mac").src = "images/Mac-Screen-15.png";
-  else if (count > 70)
+  else if (count > 190)
     document.getElementById("mac").src = "images/Mac-Screen-14.png";
-  else if (count > 65)
+  else if (count > 175)
     document.getElementById("mac").src = "images/Mac-Screen-13.png";
-  else if (count > 60)
+  else if (count > 160)
     document.getElementById("mac").src = "images/Mac-Screen-12.png";
-  else if (count > 55)
+  else if (count > 145)
     document.getElementById("mac").src = "images/Mac-Screen-11.png";
-  else if (count > 50)
+  else if (count > 130)
     document.getElementById("mac").src = "images/Mac-Screen-10.png";
-  else if (count > 45)
+  else if (count > 115)
     document.getElementById("mac").src = "images/Mac-Screen-9.png";
-  else if (count > 40)
+  else if (count > 100)
     document.getElementById("mac").src = "images/Mac-Screen-8.png";
-  else if (count > 35)
+  else if (count > 85)
     document.getElementById("mac").src = "images/Mac-Screen-7.png";
-  else if (count > 30)
+  else if (count > 70)
     document.getElementById("mac").src = "images/Mac-Screen-6.png";
-  else if (count > 25)
+  else if (count > 55)
     document.getElementById("mac").src = "images/Mac-Screen-5.png";
-  else if (count > 20)
+  else if (count > 50)
     document.getElementById("mac").src = "images/Mac-Screen-4.png";
-  else if (count > 15)
+  else if (count > 35)
     document.getElementById("mac").src = "images/Mac-Screen-3.png";
-  else if (count > 10)
+  else if (count > 20)
     document.getElementById("mac").src = "images/Mac-Screen-2.png";
   else if (count > 5)
     document.getElementById("mac").src = "images/Mac-Screen-1.png"; 
