@@ -18,8 +18,9 @@
 .mac-section{
 	margin-bottom: 30px;
 }
+
 .intro-section{
-	height: 400px;
+	height: 350px;
 	background-color: #a6b2c4;
 	color: white !important;
 }
@@ -31,9 +32,9 @@
 	margin-top: 10%;
 	/*margin-left: 5%;*/
 }
-#prof_pic{
+/*#prof_pic{
 	width: 90%;
-}
+}*/
 .intro-btn{
 	/*margin-left: 30%;*/
 	margin-top: 5%;
@@ -45,7 +46,7 @@
 	border-color: #ccc !important;
 }
 .project-section{
-	height: 800px;
+	height: 700px;
 	background-color: #4a4c51; 
 }
 .projects{
