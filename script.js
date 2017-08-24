@@ -1,43 +1,17 @@
 // Mac Animation
 var doc = document;
-var count = 0;
+var move_count = 0;
+var img_count = 1;
+var img_name = "images/Mac-Screen-0.png";
 var myListener = function(e) {
-  count = count + 1;
-  console.log(count);
-  if (count > 235)
-    doc.getElementById("mac").src = "images/Mac-Screen-17.png";
-  else if (count > 220)
-    doc.getElementById("mac").src = "images/Mac-Screen-16.png";
-  else if (count > 205)
-    doc.getElementById("mac").src = "images/Mac-Screen-15.png";
-  else if (count > 190)
-    doc.getElementById("mac").src = "images/Mac-Screen-14.png";
-  else if (count > 175)
-    doc.getElementById("mac").src = "images/Mac-Screen-13.png";
-  else if (count > 160)
-    doc.getElementById("mac").src = "images/Mac-Screen-12.png";
-  else if (count > 145)
-    doc.getElementById("mac").src = "images/Mac-Screen-11.png";
-  else if (count > 130)
-    doc.getElementById("mac").src = "images/Mac-Screen-10.png";
-  else if (count > 115)
-    doc.getElementById("mac").src = "images/Mac-Screen-9.png";
-  else if (count > 100)
-    doc.getElementById("mac").src = "images/Mac-Screen-8.png";
-  else if (count > 85)
-    doc.getElementById("mac").src = "images/Mac-Screen-7.png";
-  else if (count > 70)
-    doc.getElementById("mac").src = "images/Mac-Screen-6.png";
-  else if (count > 55)
-    doc.getElementById("mac").src = "images/Mac-Screen-5.png";
-  else if (count > 50)
-    doc.getElementById("mac").src = "images/Mac-Screen-4.png";
-  else if (count > 35)
-    doc.getElementById("mac").src = "images/Mac-Screen-3.png";
-  else if (count > 20)
-    doc.getElementById("mac").src = "images/Mac2.svg";
-  else if (count > 5)
-    doc.getElementById("mac").src = "images/Mac1.svg"; 
+  move_count = move_count + 1;
+  console.log(move_count);
+  if ( (img_count*5) == move_count && img_count <= 17){
+    img_name = "images/Mac-Screen-" + img_count.toString() + ".png";
+    console.log(img_count + ": " + img_name);
+    img_count = img_count + 1;
+  } 
+  doc.getElementById("mac").src = img_name; 
 };
 
 // Change Project Info
