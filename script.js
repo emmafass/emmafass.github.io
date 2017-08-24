@@ -6,7 +6,7 @@ var img_name = "images/Mac-Screen-0.png";
 var myListener = function(e) {
   move_count = move_count + 1;
   console.log(move_count);
-  if ( (img_count*25) == move_count && img_count <= 17){
+  if ( (img_count*15) == move_count && img_count <= 17){
     img_name = "images/Mac-Screen-" + img_count.toString() + ".png";
     console.log(img_count + ": " + img_name);
     img_count = img_count + 1;
