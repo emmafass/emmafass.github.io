@@ -35,9 +35,9 @@ var myListener = function(e) {
   else if (count > 35)
     doc.getElementById("mac").src = "images/Mac-Screen-3.png";
   else if (count > 20)
-    doc.getElementById("mac").src = "images/Mac-Screen-2.png";
+    doc.getElementById("mac").src = "images/Mac2.svg";
   else if (count > 5)
-    doc.getElementById("mac").src = "images/Mac-Screen-1.png"; 
+    doc.getElementById("mac").src = "images/Mac1.svg"; 
 };
 
 // Change Project Info
