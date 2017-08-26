@@ -1,10 +1,13 @@
+video {
+  width: 50%    !important;
+  height: auto   !important;
+}
 .center{
 	text-align: center;
 }
 .text{
 	font-family: 'Josefin Sans';
 	font-weight: lighter;
-	/*font-family: 'Bad Script', cursive;*/
 	font-size: 40px;
 }
 .green{
@@ -12,7 +15,6 @@
 }
 .blue{
 	background-color: #5B8ABC;
-	/*background-color: rgb(91, 192, 222);*/
 }
 .left-margin{
 	margin-left: 30px;
@@ -25,12 +27,25 @@
 	margin-top: 30px;
 }
 .mac-section{
+	height: 450px;
 	margin-bottom: 30px;
 }
-
+.mac{
+	position: relative;
+}
+#mac{
+	position: absolute;
+	top: 10%;
+	left: 13%;
+}
+#video{
+	position: absolute;
+    z-index: 1;
+    left: 25.4%;
+    margin-top: 3.5%;
+}
 .intro-section{
 	height: 350px;
-	/*background-color: #a6b2c4;*/
 	color: white !important;
 }
 #intro{
