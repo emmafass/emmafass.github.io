@@ -1,19 +1,3 @@
-// Mac Animation
-// var doc = document;
-// var move_count = 0;
-// var img_count = 1;
-// var img_name = "images/Mac-Screen-0.png";
-// var myListener = function(e) {
-//   move_count = move_count + 1;
-//   console.log(move_count);
-//   if ( (img_count*15) == move_count && img_count <= 17){
-//     img_name = "images/Mac-Screen-" + img_count.toString() + ".png";
-//     console.log(img_count + ": " + img_name);
-//     img_count = img_count + 1;
-//   } 
-//   doc.getElementById("mac").src = img_name; 
-// };
-
 // Change Project Info
 try {
   doc.getElementById("project1").addEventListener("click", function(){
