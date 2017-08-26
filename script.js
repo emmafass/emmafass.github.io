@@ -40,10 +40,10 @@ try {
 try {
   doc.getElementById("project3").addEventListener("click", function(){
     doc.getElementById("project3").style.borderBottom = '4px solid rgb(91, 192, 222)';
-    doc.getElementById("description-title").innerHTML = 'Fashion Quiz';
+    doc.getElementById("description-title").innerHTML = 'RGG Educare';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'Coming Soon';
-    doc.getElementById("description-link").href = '#';
+    doc.getElementById("description").innerHTML = "A wordpress website built for a daycare in Cape Town, South Africa that allows the owner to control the company's online presence.";
+    doc.getElementById("description-link").href = 'https://rggeducareblog.wordpress.com/';
     resetProjects("project2", "project1", "project4");
   });
 } catch(err) {}
