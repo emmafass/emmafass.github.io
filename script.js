@@ -1,3 +1,5 @@
+var doc = document;
+
 // Change Project Info
 try {
   doc.getElementById("project1").addEventListener("click", function(){
