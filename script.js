@@ -17,8 +17,8 @@ try {
     doc.getElementById("project2").style.borderBottom = '4px solid rgb(91, 192, 222)';
     doc.getElementById("description-title").innerHTML = 'Rapid Recipes';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'Coming Soon';
-    doc.getElementById("description-link").href = '#';
+    doc.getElementById("description").innerHTML = 'An application that allows users to find recipes based on the ingredients they currently have and other restrictions.';
+    doc.getElementById("description-link").href = 'https://agile-hamlet-35858.herokuapp.com/index.php';
     resetProjects("project1", "project3", "project4");
   });
 } catch(err) {}
