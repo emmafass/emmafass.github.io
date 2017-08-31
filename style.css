@@ -94,3 +94,33 @@ video {
 .fa-linkedin-square:before, .fa-github-square:before, .fa-envelope-square:before{
 	color: #5B8ABC;
 }
+@media screen and (min-width: 480px) {
+    .mac-section{
+		height: 250px;
+	}
+}
+@media screen and (min-width: 636px) {
+    .mac-section{
+		height: 300px;
+	}
+}
+@media screen and (min-width: 780px) {
+    .mac-section{
+		height: 350px;
+	}
+}
+@media screen and (min-width: 910px) {
+    .mac-section{
+		height: 400px;
+	}
+}
+@media screen and (min-width: 1050px) {
+    .mac-section{
+		height: 450px;
+	}
+}
+@media screen and (min-width: 1145px) {
+    .mac-section{
+		height: 500px;
+	}
+}
