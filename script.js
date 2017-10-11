@@ -7,7 +7,7 @@ try {
     doc.getElementById("description-title").innerHTML = 'Lokahi';
     doc.getElementById("description-btn").innerHTML = 'See Project';
     doc.getElementById("description").innerHTML = 'An application to crowdsource information about investment opportunities and collaborate with other potential investors.';
-    doc.getElementById("description-link").href = 'https://cs3240sp17g15.herokuapp.com/login/?next=/';
+    doc.getElementById("description-link").href = 'https://cs3240sp17g15.herokuapp.com/login';
     resetProjects("project2", "project3", "project4");
   });
 } catch(err) {}
