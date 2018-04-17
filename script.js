@@ -7,7 +7,7 @@ try {
     doc.getElementById("description-title").innerHTML = 'Big Event';
     doc.getElementById("description-btn").innerHTML = 'See Project';
     doc.getElementById("description").innerHTML = 'A web portal for volunteers and job site requestors to create and manage an account for the Big Event - a day of volunteering at UVA.';
-    doc.getElementById("description-link").href = 'https://cs3240sp17g15.herokuapp.com/login/?next=/';
+    doc.getElementById("description-link").href = 'http://bigevent-madisonhouse.herokuapp.com/';
     resetProjects("project2", "project3", "project4");
   });
 } catch(err) {}
