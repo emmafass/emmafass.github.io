@@ -4,9 +4,9 @@ var doc = document;
 try {
   doc.getElementById("project1").addEventListener("click", function(){
     doc.getElementById("project1").style.borderBottom = '4px solid rgb(91, 192, 222)';
-    doc.getElementById("description-title").innerHTML = 'Lokahi';
+    doc.getElementById("description-title").innerHTML = 'Big Event';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'An application to crowdsource information about investment opportunities and collaborate with other potential investors.';
+    doc.getElementById("description").innerHTML = 'A web portal for volunteers and job site requestors to create and manage an account for the Big Event - a day of volunteering at UVA.';
     doc.getElementById("description-link").href = 'https://cs3240sp17g15.herokuapp.com/login/?next=/';
     resetProjects("project2", "project3", "project4");
   });
@@ -15,10 +15,10 @@ try {
 try {
   doc.getElementById("project2").addEventListener("click", function(){
     doc.getElementById("project2").style.borderBottom = '4px solid rgb(91, 192, 222)';
-    doc.getElementById("description-title").innerHTML = 'Rapid Recipes';
+    doc.getElementById("description-title").innerHTML = 'Banking Script';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'An application that allows users to find recipes based on the ingredients they currently have at home and other restrictions.';
-    doc.getElementById("description-link").href = 'https://agile-hamlet-35858.herokuapp.com/index.php';
+    doc.getElementById("description").innerHTML = 'A script run in Google Apps Script that uses Plaid to pull past transactions into a Google Sheet for analysis.';
+    doc.getElementById("description-link").href = 'https://github.com/emmafass/plaid-google-scripts';
     resetProjects("project1", "project3", "project4");
   });
 } catch(err) {}
