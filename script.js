@@ -37,10 +37,10 @@ try {
 try {
   doc.getElementById("project4").addEventListener("click", function(){
     doc.getElementById("project4").style.borderBottom = '4px solid rgb(91, 192, 222)';
-    doc.getElementById("description-title").innerHTML = 'Ibingi';
+    doc.getElementById("description-title").innerHTML = 'Bodega Dolium';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'Coming Soon';
-    doc.getElementById("description-link").href = '#';
+    doc.getElementById("description").innerHTML = 'While participating in a 2 week study abroad program in Mendoza, Argentina, I consulted for a winery called Bodega Dolium. I helped the staff take better control of their online presence by transitioning their old website to a Weebly site.';
+    doc.getElementById("description-link").href = 'http://bodegadolium.weebly.com/';
     resetProjects("project2", "project3", "project1");
   });
 } catch(err) {}
