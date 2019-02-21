@@ -15,9 +15,9 @@ try {
 try {
   doc.getElementById("project2").addEventListener("click", function(){
     doc.getElementById("project2").style.borderBottom = '4px solid rgb(91, 192, 222)';
-    doc.getElementById("description-title").innerHTML = 'Banking Script';
+    doc.getElementById("description-title").innerHTML = 'ibingi';
     doc.getElementById("description-btn").innerHTML = 'See Project';
-    doc.getElementById("description").innerHTML = 'A script run in Google Apps Script that uses Plaid to pull past transactions into a Google Sheet for analysis.';
+    doc.getElementById("description").innerHTML = 'A website to create your own bingo boards that you can play with friends.';
     doc.getElementById("description-link").href = 'https://github.com/emmafass/plaid-google-scripts';
     resetProjects("project1", "project3", "project4");
   });
