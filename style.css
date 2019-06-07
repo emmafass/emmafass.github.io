@@ -1,126 +1,23 @@
-video {
-  width: 50%    !important;
-  height: auto   !important;
+body, html {
+  height: 100%;
+  margin: 0;
 }
-.center{
-	text-align: center;
+
+.bg{
+	/* The image used */
+  background-image: url("images/girlpwr.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .text{
 	font-family: 'Josefin Sans';
 	font-weight: lighter;
 	font-size: 40px;
-}
-.green{
-	background-color: #6AE368;
-}
-.blue{
-	background-color: #5B8ABC;
-}
-.left-margin{
-	margin-left: 30px;
-}
-.add-padding{
-	padding: 30px 30px;
-}
-.header{
-	height: 50px;
-	margin-top: 30px;
-}
-.mac-section{
-	height: 450px;
-	margin-bottom: 30px;
-}
-.mac{
-	position: relative;
-}
-#mac{
-	position: absolute;
-	top: 10%;
-	left: 13%;
-}
-#video{
-	position: absolute;
-    z-index: 1;
-    left: 25.4%;
-    margin-top: 3.5%;
-}
-.intro-section{
-	height: 350px;
-	color: white !important;
-}
-#intro{
-	margin-top: 5%;
-}
-.intro-text{
-	font-size: 2em;
-	margin-top: 10%;
-}
-.intro-btn{
-	margin-top: 5%;
-	background-color: black;
-	border-color: #f1f1f1 !important;
-	color: #f1f1f1 !important;
-}
-.intro-btn:hover{
-	border-color: #ccc !important;
-}
-.project-section{
-	height: 700px;
-	background-color: #4a4c51; 
-}
-.projects{
-	border-bottom: thick groove white;
-}
-.project-panel{
-	margin-top: 5%;
-	background-color: #f1f1f1;
-	box-shadow: 1px 2px 5px black;
-	font-family: 'Roboto', sans-serif;
-}
-.project-title{
-	font-size: 16px;
-	margin-top: 10px;
-}
-.divider{
-	border-bottom: 2px solid gray;
-}
-.project-text{
-	color: white;
-	font-size: 32px;
-	margin-left: 10px;
-	margin-top: 50px;
-	font-family: 'Josefin Sans';
-}
-.fa-linkedin-square:before, .fa-github-square:before, .fa-envelope-square:before{
-	color: #5B8ABC;
-}
-@media screen and (min-width: 480px) {
-    .mac-section{
-		height: 250px;
-	}
-}
-@media screen and (min-width: 636px) {
-    .mac-section{
-		height: 300px;
-	}
-}
-@media screen and (min-width: 780px) {
-    .mac-section{
-		height: 350px;
-	}
-}
-@media screen and (min-width: 910px) {
-    .mac-section{
-		height: 400px;
-	}
-}
-@media screen and (min-width: 1050px) {
-    .mac-section{
-		height: 450px;
-	}
-}
-@media screen and (min-width: 1145px) {
-    .mac-section{
-		height: 500px;
-	}
 }
